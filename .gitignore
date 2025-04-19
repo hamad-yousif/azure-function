@@ -133,4 +133,4 @@ __blobstorage__
 __queuestorage__
 __azurite_db*__.json
 .python_packages
-function_app.py.backup
+*.backup
