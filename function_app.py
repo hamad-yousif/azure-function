@@ -1,12 +1,3 @@
-my_function_app/
-│
-├── host.json
-├── requirements.txt
-├── function_app.py
-└── local.settings.json (optional for local dev)
-
-# Contents of function_app.py
-
 import azure.functions as func
 from azure.functions import AuthLevel
 from openai import OpenAI
