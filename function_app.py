@@ -1,4 +1,5 @@
 import azure.functions as func
+from azure.functions import AuthLevel
 from openai import OpenAI
 import os
 import json
