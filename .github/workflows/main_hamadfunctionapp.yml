@@ -29,6 +29,9 @@ jobs:
         with:
           python-version: ${{ env.PYTHON_VERSION }}
 
+      - name: List deployment files
+        run: ls -R
+
       - name: Create and start virtual environment
         run: |
           python -m venv venv
